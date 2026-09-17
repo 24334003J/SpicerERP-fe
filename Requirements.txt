@@ -1,0 +1,6 @@
+Backend
+expressjs
+CORS/RJ resource sharing
+mangoose
+dotenv
+environment variables
