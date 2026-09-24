@@ -50,10 +50,8 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "https://spicererp-be-4.onrender.com/api/register",
-        username, 
-        email,
-        password
+        "http://localhost:5000/api/auth/register",
+        formData
       );
 
       setMessage(response.data.message);
